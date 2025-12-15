@@ -21,6 +21,7 @@ using namespace std;
 
 int main() {
     string name, stid;
+
     cout << "Fahsai: Sawadee ka...Can you tell me your name?\n";
     cout << "?????: ";
     getline(cin, name);
@@ -36,6 +37,7 @@ int main() {
     cout << "Fahsai: What movie do you want to watch?\n";
     
     string movie, day, x;
+    
     cout << name << ": ";
     cin.ignore();
     getline(cin, movie);
